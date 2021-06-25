@@ -12,7 +12,7 @@ function calculate () {
   secondNum = parseInt(secondNum)
 
   for (counter = 0; counter < firstNum; counter++) {
-   answer = answer + secondNum
+    answer = answer + secondNum
   }
   document.getElementById('answer').innerHTML = answer
 }
